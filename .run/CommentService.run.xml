@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="CommentService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <envs>
+      <env name="tsid.node" value="7" />
+      <env name="tsid.node.count" value="64" />
+      <env name="SERVER_PORT" value="8080" />
+      <env name="APP_PROFILE" value="test" />
+      <env name="BASE_URL" value="http://localhost:8082" />
+    </envs>
+    <module name="alga-comment-service.main" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.felipesouls.alga_comment_service.AlgaCommentServiceApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

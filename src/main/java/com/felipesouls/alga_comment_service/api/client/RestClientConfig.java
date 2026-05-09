@@ -12,7 +12,7 @@ public class RestClientConfig {
 
     @Bean
     public ModerationClient moderationClient(RestClientFactory factory,
-                                             @Value("${external-apis.monitoring-base-url}") String baseUrl) {
+                                             @Value("${external-apis.moderation-base-url}") String baseUrl) {
         RestClient restClient = factory.moderationRestClient(baseUrl);
         RestClientAdapter adapter = RestClientAdapter.create(restClient);
 
