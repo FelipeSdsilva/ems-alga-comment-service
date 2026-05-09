@@ -1,3 +1,15 @@
+server:
+  port: ${SERVER_PORT:8080}
+
+external-apis:
+  moderation-base-url: ${BASE_URL}
+
 spring:
+  jpa:
+    open-in-view: false
+
   application:
     name: alga-comment-service
+
+  profiles:
+    active: ${APP_PROFILE:test}
